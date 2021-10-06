@@ -59,7 +59,7 @@
           border-radius: 50%;
           cursor: pointer;
           transition: 0.3s;
-          background: $color-5;
+          background: $color-8;
           transform: scale(0);
           transform-origin: center;
         }
@@ -209,6 +209,7 @@
     }
   }
 }
+
 @media (max-width: 650px) and (min-width: 521px){
   .portfolioContent {
     .project {
@@ -225,14 +226,14 @@
 }
 @media (max-width: 520px){
   .radioDisplay {
-    display: none !important;
+    // display: none !important;
   }
   .portfolioContent {
     grid-template-rows: 1fr !important;
 
     .project {
-      grid-template-rows: 30px 40px 80px 40px !important;
-      width: 98% !important;
+      grid-template-rows: 40px 40px 250px 40px !important;
+      width: 90% !important;
 
       img {
         height: 100% !important;

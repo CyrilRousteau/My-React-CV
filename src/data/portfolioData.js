@@ -9,6 +9,7 @@ import img7 from '../assets/images/cv-cyril.png';
 import img8 from '../assets/images/GBNC.png';
 import img9 from '../assets/images/superYa.png';
 import img10 from '../assets/images/dpoCons.png';
+import img11 from '../assets/images/coiffeur.png';
 
 export const portfolioData = [
   {
@@ -105,6 +106,15 @@ export const portfolioData = [
     source: '',
     info: 'Intégration de contenu, texte et images, projet en next.js',
     picture: img10,
+  },
+  {
+    id: 11,
+    name: 'Coiffeur Barbier',
+    languages: ['wordpress'],
+    languagesIcons: ['fab fa-wordpress'],
+    source: 'http://testsalon.cyrilrousteau.com/',
+    info: 'Salon de coiffure barbier pour homme avec le thème Divi Builder de Wordpress. Integration newsletter, formulaire de contact, galerie d image, vidéo, RGPD',
+    picture: img11,
   },
 
 ];
